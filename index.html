@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./src/css/tailwind.css" />
   </head>
   <body>
-    <header class="bg-white z-[1]">
+    <header class="bg-white md:border-l-8 md:border-[#F44335]">
       <nav class="flex items-center justify-between w-[92%] mx-auto py-2">
         <!-- Header Logo  -->
         <div>
@@ -48,7 +48,7 @@
     <main>
       <!-- Hero Area Start  -->
       <section
-        class="bg-[url('https://i.postimg.cc/XJV4hffQ/bg1.png')] bg-no-repeat bg-cover bg-center md:pb-52 md:pt-10"
+        class="bg-[url('https://i.postimg.cc/XJV4hffQ/bg1.png')] bg-no-repeat bg-cover bg-center md:pb-52 md:py-44 md:border-l-8 md:border-[#F44335]"
       >
         <div class="text-white">
           <h3 class="text-center text-sm md:text-lg font-semibold pt-5">
@@ -74,6 +74,17 @@
               Ask questions
             </button>
           </div>
+        </div>
+      </section>
+
+      <!-- Blank photo Section -->
+      <section class="hidden md:block">
+        <div class="absolute top-[92%] left-2">
+          <img
+            class="object-cover w-[1800px]"
+            src="https://i.postimg.cc/g2VF3gQr/Wave.png"
+            alt=""
+          />
         </div>
       </section>
 
@@ -140,9 +151,7 @@
       </section>
 
       <!-- About Us Section  -->
-      <section
-        class="bg-[#F5F5F5] pt-10 md:pt-20 bg-[url(https://i.postimg.cc/Wzk3NZnB/Oval.png)] bg-no-repeat bg-cover bg-right"
-      >
+      <section class="bg-[#F5F5F5] pt-10 md:pt-20">
         <!-- Our Mission -->
         <div class="grid grid-cols-12 w-[92%] mx-auto pb-10">
           <div
@@ -163,7 +172,7 @@
           </div>
 
           <div
-            class="col-span-12 md:col-span-4 flex items-center justify-center md:justify-end"
+            class="col-span-12 md:col-span-4 flex items-center justify-center md:justify-end bg-[url(https://i.postimg.cc/Wzk3NZnB/Oval.png)] bg-no-repeat bg-cover bg-right"
           >
             <img class="w-[50%] md:w-80" src="./images/left.png" alt="..." />
           </div>
@@ -177,7 +186,9 @@
             <img class="w-[50%] md:w-80" src="./images/left.png" alt="..." />
           </div>
 
-          <div class="col-span-12 md:col-span-5 flex items-center relative">
+          <div
+            class="col-span-12 md:col-span-5 flex items-center bg-[url(https://i.postimg.cc/Wzk3NZnB/Oval.png)] bg-no-repeat bg-cover bg-right"
+          >
             <div class="">
               <h3 class="text-[#F44335] uppercase">About us</h3>
               <h2
@@ -259,11 +270,9 @@
           />
         </div>
 
-        <div
-          class="w-[92%] mx-auto grid grid-cols-12 gap-5 md:gap-0 md:flex md:items-center md:justify-around mt-5 md:mt-0"
-        >
+        <div class="w-[92%] mx-auto grid grid-cols-12 gap-5 md:gap-10 mt-5">
           <div
-            class="col-span-6 text-center shadow p-3 md:p-10 hover:bg-[#F44335] hover:text-white transition-all duration-300 cursor-pointer rounded-md bg-white"
+            class="col-span-6 md:col-span-3 text-center shadow p-3 md:p-10 hover:bg-[#F44335] hover:text-white transition-all duration-300 cursor-pointer rounded-md bg-white"
           >
             <div>
               <img class="w-20 mx-auto" src="./images/image 3.png" alt="" />
@@ -292,7 +301,7 @@
           </div>
 
           <div
-            class="col-span-6 text-center shadow p-3 md:p-10 hover:bg-[#F44335] hover:text-white transition-all duration-300 cursor-pointer rounded-md bg-white"
+            class="col-span-6 md:col-span-3 text-center shadow p-3 md:p-10 hover:bg-[#F44335] hover:text-white transition-all duration-300 cursor-pointer rounded-md bg-white"
           >
             <div>
               <img class="w-20 mx-auto" src="./images/image 4.png" alt="" />
@@ -323,7 +332,7 @@
           </div>
 
           <div
-            class="col-span-6 text-center shadow p-3 md:p-10 hover:bg-[#F44335] hover:text-white transition-all duration-300 cursor-pointer rounded-md bg-white"
+            class="col-span-6 md:col-span-3 text-center shadow p-3 md:p-10 hover:bg-[#F44335] hover:text-white transition-all duration-300 cursor-pointer rounded-md bg-white"
           >
             <div>
               <img class="w-20 mx-auto" src="./images/image 2.png" alt="" />
@@ -354,7 +363,7 @@
           </div>
 
           <div
-            class="col-span-6 text-center shadow p-3 md:p-10 hover:bg-[#F44335] hover:text-white transition-all duration-300 cursor-pointer rounded-md bg-white"
+            class="col-span-6 md:col-span-3 text-center shadow p-3 md:p-10 hover:bg-[#F44335] hover:text-white transition-all duration-300 cursor-pointer rounded-md bg-white"
           >
             <div>
               <img class="w-20 mx-auto" src="./images/image 1.png" alt="" />
